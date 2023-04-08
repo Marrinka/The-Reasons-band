@@ -1,0 +1,15 @@
+.rider {
+    font-size: 20px;
+    line-height: 2;
+}
+
+#piano {
+    width: 80vw;
+    height: 35vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%);
+    
+}

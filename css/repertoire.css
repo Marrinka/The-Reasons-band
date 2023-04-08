@@ -1,0 +1,17 @@
+* {
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+}
+
+.content {
+    background-position: right;
+    background-position-y: 70%;
+    background-size: cover;
+}

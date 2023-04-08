@@ -1,0 +1,79 @@
+@-webkit-keyframes logo-rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes logo-rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.header {
+    display: grid;
+    grid-template: 1fr / 1fr minmax(auto, 80px) minmax(auto, 1350px) 1fr;
+    padding: 15px;
+    padding-bottom: 2px;
+    padding-top: 10px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 4;
+}
+
+.header-logo {
+    -webkit-animation-name: logo-rotation;
+            animation-name: logo-rotation;
+    -webkit-animation-duration: 5s;
+            animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    height: 70px;
+    grid-column: 2/3;
+    border: 1px solid black;
+    border-radius: 70px;
+}
+
+.nav{
+    grid-column: 3/4;
+}
+
+.header-list {
+    list-style-type: none;
+    display: grid;
+    grid-auto-flow: column;
+    height: 100%;
+    margin: 0;
+}
+
+.header-list li {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-list li a{
+    background-color: transparent;
+}
+
+.header-list li:hover {
+    background-color: rgb(35, 35, 35);
+}
+

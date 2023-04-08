@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    background-color:black;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-family: 'Rampart One', cursive;
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+.container {
+    display: grid;
+	min-height: 100%;
+	grid-template: minmax(80px, auto) 1fr minmax(150px, auto) / 1fr;
+}
+
+.main {
+    grid-row: 2/3;
+}
+
+.content {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+.footer {
+    grid-row: 3/4;
+}

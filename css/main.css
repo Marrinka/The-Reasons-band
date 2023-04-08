@@ -1,0 +1,22 @@
+/* * {
+    background-color: transparent;
+}
+
+body {
+    background-color: black;
+}
+
+.header {
+    background-color: black;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: minmax(800px, auto) ;
+}
+
+.hat {
+    background-image: url("main-photo-upd.jpg");
+    background-size: cover;
+    background-position-y: 70%;
+} */
